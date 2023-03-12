@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa7ea3c6.chunk.css",
+    "main.js": "/static/js/main.2c69aab1.chunk.js",
+    "main.js.map": "/static/js/main.2c69aab1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce14990e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce14990e.js.map",
+    "static/css/2.fee89144.chunk.css": "/static/css/2.fee89144.chunk.css",
+    "static/js/2.1a0832b7.chunk.js": "/static/js/2.1a0832b7.chunk.js",
+    "static/js/2.1a0832b7.chunk.js.map": "/static/js/2.1a0832b7.chunk.js.map",
+    "static/js/3.5d7a0e4a.chunk.js": "/static/js/3.5d7a0e4a.chunk.js",
+    "static/js/3.5d7a0e4a.chunk.js.map": "/static/js/3.5d7a0e4a.chunk.js.map",
+    "static/js/4.c03b002d.chunk.js": "/static/js/4.c03b002d.chunk.js",
+    "static/js/4.c03b002d.chunk.js.map": "/static/js/4.c03b002d.chunk.js.map",
+    "static/js/5.0eb08979.chunk.js": "/static/js/5.0eb08979.chunk.js",
+    "static/js/5.0eb08979.chunk.js.map": "/static/js/5.0eb08979.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fee89144.chunk.css.map": "/static/css/2.fee89144.chunk.css.map",
+    "static/css/main.aa7ea3c6.chunk.css.map": "/static/css/main.aa7ea3c6.chunk.css.map",
+    "static/js/2.1a0832b7.chunk.js.LICENSE.txt": "/static/js/2.1a0832b7.chunk.js.LICENSE.txt",
+    "static/media/best-app-development-tool.md": "/static/media/best-app-development-tool.ae2cc208.md",
+    "static/media/common-misconceptions-about-payment.md": "/static/media/common-misconceptions-about-payment.9fde4d4b.md",
+    "static/media/App.scss": "/static/media/map.a1fe1300.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/things-to-know-about-startup-business.md": "/static/media/things-to-know-about-startup-business.02073e1a.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce14990e.js",
+    "static/css/2.fee89144.chunk.css",
+    "static/js/2.1a0832b7.chunk.js",
+    "static/css/main.aa7ea3c6.chunk.css",
+    "static/js/main.2c69aab1.chunk.js"
+  ]
+}
