@@ -1,14 +1,14 @@
 {
   "name": "anshagarwal",
-  "homepage": ".",
+  "homepage": "http://anshagarwal012.github.io/portfolio",
   "version": "1.0.2",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "animate.css": "4.1.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "bootstrap": "^5.0.2",
     "disqus-react": "^1.1.0",
     "fslightbox-react": "^1.6.2",
@@ -33,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
