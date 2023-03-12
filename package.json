@@ -1,7 +1,7 @@
 {
   "name": "anshagarwal",
   "version": "1.0.2",
-  "homepage": ".",
+  "homepage": "./portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
