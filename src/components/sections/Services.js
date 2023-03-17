@@ -9,27 +9,30 @@ const servicesData = [
     icon: "images/service-1.svg",
     title: "UI/UX design",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Designers that specialize in visual identity graphic design collaborate with brand stakeholders to create assets like Logos, Brochers, Visiting card etc",
     color: "#6C6CE5",
     contentColor: "light",
+    height: 'auto'
   },
   {
     id: 2,
     icon: "images/service-2.svg",
     title: "Web Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "The web solutions we develop are feature-rich, highly functional, robust, secure and scalable with engaging UI/UX design that enhances the brand.",
     color: "#F9D74C",
     contentColor: "dark",
+    height: 'auto'
   },
   {
     id: 3,
-    icon: "images/service-3.svg",
-    title: "Photography",
+    icon: "images/service-4.svg",
+    title: "Software Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "We develop software that can fulfill the dreams of both the seller and the customer and that can be a hard pillar to hold the heavy dreams of all the people relying on it.",
     color: "#F97B8B",
     contentColor: "light",
+    height: '85px'
   },
 ];
 

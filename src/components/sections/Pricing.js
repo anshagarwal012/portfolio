@@ -6,48 +6,45 @@ const priceboxData = [
   {
     id: 1,
     title: "Basic",
-    icon: "images/price-1.svg",
+    icon: "images/price-2.svg",
     content: [
       {
         id: 0,
-        text: "A Simple option but powerful to manage your business",
-      },
-      {
-        id: 2,
-        text: "Email support",
-      },
+        text: "Hire me for to get that project done before blink of an eye",
+      }
     ],
-    price: 9,
+    price: '',
+    whatsapp: true,
+    message: 'https://api.whatsapp.com/send?phone=919696084837&text=Thanks%20For%20Choosing%20us%20Plan%20%3A%20Basic',
     best: false,
     badge: false,
   },
   {
     id: 2,
-    title: "Premium",
-    icon: "images/price-2.svg",
+    title: "Hourly",
+    icon: "images/price-3.svg",
     content: [
       {
         id: 1,
-        text: "Unlimited product including apps integrations and more features",
-      },
-      {
-        id: 2,
-        text: "Mon-Fri support",
-      },
+        text: "Hire me hourly basis for fast and effective work results",
+      }
     ],
-    price: 49,
+    price: 5,
+    whatsapp: false,
+    message: 'https://api.whatsapp.com/send?phone=919696084837&text=Thanks%20For%20Choosing%20us%20Plan%20%3A%20Hourly',
     best: true,
     badge: "Recommended",
   },
   {
     id: 3,
-    title: "Ultimate",
-    icon: "images/price-3.svg",
+    title: "Creative Assistance",
+    icon: "images/price-1.svg",
     content: [
-      { id: 1, text: "A wise option for large companies and individuals" },
-      { id: 2, text: "24/7 support" },
+      { id: 1, text: "Engage our expert developers as per your project requirement" }
     ],
     price: 99,
+    whatsapp: true,
+    message: 'https://api.whatsapp.com/send?phone=919696084837&text=Thanks%20For%20Choosing%20us%20Plan%20%3A%20Inquery',
     best: false,
     badge: false,
   },

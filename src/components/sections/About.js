@@ -8,27 +8,39 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "I am Ansh Agarwal, A Highly Motivated & Passionated Full Stack Developer from India. I have 4 years of rich experience in WordPress, WooCommerce, REST API, Core PHP and also have knowledge of Python, React, Laravel. ",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
+    title: "Core PHP",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "UI/UX Design",
-    percantage: 95,
+    title: "Laravel",
+    percantage: 70,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
-    percantage: 70,
+    title: "Core Wordpress",
+    percantage: 90,
     progressColor: "#6C6CE5",
+  },
+  {
+    id: 4,
+    title: "React",
+    percantage: 65,
+    progressColor: "#c56cf0",
+  },
+  {
+    id: 5,
+    title: "Python",
+    percantage: 80,
+    progressColor: "#e17055",
   },
 ];
 
@@ -36,26 +48,26 @@ const counterData = [
   {
     id: 1,
     title: "Projects completed",
-    count: 198,
+    count: 150,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 5670,
-    icon: "icon-cup",
+    title: "Working Hours",
+    count: 650,
+    icon: "icon-hourglass",
   },
   {
     id: 3,
     title: "Satisfied clients",
-    count: 427,
+    count: 20,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
-    icon: "icon-badge",
+    title: "Years Of Experience",
+    count: 4,
+    icon: "icon-calendar",
   },
 ];
 
@@ -65,7 +77,7 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 align-self-center">
             <div className="text-center text-md-left">
               <img src={aboutContent.avatarImage} alt={aboutContent.name} />
             </div>
@@ -75,10 +87,10 @@ function About() {
           <div className="col-md-9 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 align-self-center">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <a href="https://anshagarwal012.github.io/ANSH%20CV.pdf" className="btn btn-default">
                       Download CV
                     </a>
                   </div>

@@ -5,48 +5,62 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Python Programming",
+    years: "2021 - 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "I have successfully completed Python Programming for Beginners in Data Science",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "PHP & MySQL",
+    years: "2021 - 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "I have successfully completed PHP & MySQL - Certification Course",
   },
   {
     id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
+    title: "O'Level Diploma",
+    years: "2020 -2021",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "I have successfully completed O'level course",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Senior Full Stack Developer",
+    years: "2022 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "In Woodevz Technologies Pvt. Ltd. My Responsibilities is to create WordPress (Themes & Plugins), Integrates Payment Gateways, Working with API’s, meeting with clients etc.",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Senior Designer & Developer",
+    years: "2020 - 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "In Web IT Solution Hub Work as a Graphics Designer, Website Developer, Backend Management Work, Video Editor, Motion Graphic, Animation etc.",
   },
   {
     id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "Graphic Designer & Management",
+    years: "2018 - 2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "In Chhappan Bhog Work as a Graphics Designer, Website Management Head, Software Management and Some Other Responsibilities.",
+  },
+  {
+    id: 4,
+    title: "Senior Graphic Designer",
+    years: "2017 - 2018",
+    content:
+      "In Aditya Printers Work as a Graphics Designer and Operate Laser Machine, & Flex Machine.",
+  },
+  {
+    id: 5,
+    title: "Junior Ui/Ux Designer",
+    years: "2016 - 2017",
+    content:
+      "In Alexa Global Soft Tech Pvt. Ltd. My Responsibilities to create website's UI with UX.",
   },
 ];
 

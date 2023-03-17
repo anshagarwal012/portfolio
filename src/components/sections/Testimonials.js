@@ -7,26 +7,26 @@ const sliderData = [
   {
     id: 1,
     avatar: "images/avatar-1.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Robert James",
+    subtitle: "Client",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "This guy has the skills needed. He completed the task very fast. Other freelancers could not solve the task but this guy did an awesome job. I wouldn't mind working with him in the future.",
   },
   {
     id: 2,
-    avatar: "images/avatar-2.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/avatar-3.svg",
+    userName: "Amelia Thompson",
+    subtitle: "Client",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "All you guys are awesome! Thanks for always helping me. Always very nice and friendly. 👍",
   },
   {
     id: 3,
-    avatar: "images/avatar-3.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/avatar-2.svg",
+    userName: "Daniel Paul",
+    subtitle: "Client",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "We are truly happy with Ansh, truly serious and harmonious in their work. Ansh and his team of programmers have always been there for us all the time. This is a company I can suggest to anyone to accomplish any composition.",
   },
 ];
 
@@ -43,7 +43,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <Pagetitle title="Clients & Review" />
+        <Pagetitle title="Client Review" />
         <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (
             <Testimonial key={slider.id} slider={slider} />

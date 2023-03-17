@@ -99,12 +99,23 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <Link
                 activeClass="active"
-                to="section-blogs"
+                to="section-pricing"
                 spy={true}
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-note"></i>Blog
+                <i className="icon-magic-wand"></i>Plans
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-testimoninal"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-people"></i>Client Review
               </Link>
             </li>
             <li>
@@ -123,7 +134,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} Ansh Agarwal.
           </span>
         </div>
       </header>

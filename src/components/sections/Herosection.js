@@ -24,18 +24,18 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src="images/avatar-1.svg" alt="Ansh Agarwal" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Ansh Agarwal</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Software Developer",
+                "Full Stack Developer",
+                "API Developer",
               ]}
-              typeSpeed={80}
+              typeSpeed={100}
               backSpeed={40}
               attr="value"
               loop
@@ -46,28 +46,18 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-instagram"></i>
+              <a href="https://api.whatsapp.com/send?phone=919696084837">
+                <i className="fab fa-whatsapp"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-twitter"></i>
+              <a href="https://www.linkedin.com/in/ansh-agarwal012/">
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="https://github.com/anshagarwal012">
+                <i className="fab fa-github"></i>
               </a>
             </li>
           </ul>

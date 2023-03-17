@@ -29,10 +29,21 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
+      send_message(formdata);
       setMessage("You message has been sent!!!");
     }
   };
-
+  const send_message = e => {
+    fetch('/contact.php', {
+      method: 'POST',
+      headers: {
+        Accept: 'application.json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(e),
+      cache: 'default'
+    })
+  }
   const handleChange = (event) => {
     setFormdata({
       ...formdata,
@@ -72,7 +83,7 @@ function Contact() {
               >
                 <p>
                   Don't like forms? Send me an{" "}
-                  <a href="mailto:name@example.com">email</a>. 👋
+                  <a href="mailto:info.ansh012@gmail.com">email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>

@@ -11,9 +11,9 @@ function Skill({ progress, isVisible }) {
           style={
             isVisible
               ? {
-                  width: `${percantage}%`,
-                  background: progressColor,
-                }
+                width: `${percantage}%`,
+                background: progressColor,
+              }
               : { width: 0, background: progressColor }
           }
         ></div>
@@ -32,7 +32,7 @@ function Skill({ progress, isVisible }) {
   return (
     <div className="skill-item">
       <div className="skill-info clearfix">
-        <h4 className="float-left mb-3 mt-0">{title}</h4>
+        <h4 className="float-left mb-1 mt-0">{title}</h4>
         <span className="float-right">{percantage}%</span>
       </div>
       <div className="progress">{progressQuery()}</div>

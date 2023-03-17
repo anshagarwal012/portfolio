@@ -1,7 +1,7 @@
 import React from "react";
 
 function Pricebox({ priceboxItem }) {
-  const { icon, title, content, price, badge, best } = priceboxItem;
+  const { icon, title, content, price, badge, best, whatsapp, message } = priceboxItem;
   return (
     <div
       className={
@@ -16,13 +16,17 @@ function Pricebox({ priceboxItem }) {
       {content.map((singleContent) => (
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
-      <h3 className="price">
-        <em>$</em>
-        {price}
-        <span>Month</span>
-      </h3>
-      <a href="!#" className="btn btn-default">
-        Get Started
+      {
+        whatsapp
+          ? ('')
+          : (<h3 className="price">
+            <em>$</em>
+            {price}
+            <span>/Hour</span>
+          </h3>)
+      }
+      <a href={message} className="btn btn-default">
+        Whatsapp
       </a>
     </div>
   );

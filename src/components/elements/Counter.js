@@ -18,7 +18,7 @@ function Counter({ counterItem, isVisible }) {
       <span className={handleIcon()}></span>
       <div className="details">
         <h3 className="mb-0 mt-0 number">
-          <em className="count">{countQuery()}</em>
+          <em className="count">{countQuery()}+</em>
         </h3>
         <p className="mb-0">{title}</p>
       </div>
