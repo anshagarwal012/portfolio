@@ -112,143 +112,143 @@ const allData = [
   },
   {
     "id": 13,
-    "title": "2c2p Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/2c2p.png",
-    "popupLink": ['images/works/payment-gateways/2c2p.png']
-  },
-  {
-    "id": 14,
-    "title": "authorize Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/authorize.jpg",
-    "popupLink": ['images/works/payment-gateways/authorize.jpg']
-  },
-  {
-    "id": 15,
-    "title": "billplz Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/billplz.webp",
-    "popupLink": ['images/works/payment-gateways/billplz.webp']
-  },
-  {
-    "id": 16,
-    "title": "Cashfree Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/Cashfree.png",
-    "popupLink": ['images/works/payment-gateways/Cashfree.png']
-  },
-  {
-    "id": 17,
-    "title": "clover Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/clover.png",
-    "popupLink": ['images/works/payment-gateways/clover.png']
-  },
-  {
-    "id": 18,
-    "title": "coinbase Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/coinbase.png",
-    "popupLink": ['images/works/payment-gateways/coinbase.png']
-  },
-  {
-    "id": 19,
-    "title": "coingate Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/coingate.png",
-    "popupLink": ['images/works/payment-gateways/coingate.png']
-  },
-  {
-    "id": 20,
-    "title": "flutterwave Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/flutterwave.png",
-    "popupLink": ['images/works/payment-gateways/flutterwave.png']
-  },
-  {
-    "id": 21,
-    "title": "instamojo Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/instamojo.jpg",
-    "popupLink": ['images/works/payment-gateways/instamojo.jpg']
-  },
-  {
-    "id": 22,
-    "title": "mollie Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/mollie.webp",
-    "popupLink": ['images/works/payment-gateways/mollie.webp']
-  },
-  {
-    "id": 23,
-    "title": "nowpayments Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/nowpayments.png",
-    "popupLink": ['images/works/payment-gateways/nowpayments.png']
-  },
-  {
-    "id": 24,
-    "title": "omise Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/omise.jpg",
-    "popupLink": ['images/works/payment-gateways/omise.jpg']
-  },
-  {
-    "id": 25,
-    "title": "paymongo Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/paymongo.png",
-    "popupLink": ['images/works/payment-gateways/paymongo.png']
-  },
-  {
-    "id": 26,
-    "title": "paypal Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/paypal.jpg",
-    "popupLink": ['images/works/payment-gateways/paypal.jpg']
-  },
-  {
-    "id": 27,
-    "title": "paytm Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/paytm.jpg",
-    "popupLink": ['images/works/payment-gateways/paytm.jpg']
-  },
-  {
-    "id": 28,
-    "title": "payu Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/payu.jpg",
-    "popupLink": ['images/works/payment-gateways/payu.jpg']
-  },
-  {
-    "id": 29,
-    "title": "rapyd Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/rapyd.webp",
-    "popupLink": ['images/works/payment-gateways/rapyd.webp']
-  },
-  {
-    "id": 30,
     "title": "razorpay Payment Gateway",
     "category": "gateways",
     "image": "images/works/payment-gateways/razorpay.jpg",
     "popupLink": ['images/works/payment-gateways/razorpay.jpg']
   },
   {
-    "id": 31,
-    "title": "square Payment Gateway",
-    "category": "gateways",
-    "image": "images/works/payment-gateways/square.png",
-    "popupLink": ['images/works/payment-gateways/square.png']
-  },
-  {
-    "id": 32,
+    "id": 14,
     "title": "stripe Payment Gateway",
     "category": "gateways",
     "image": "images/works/payment-gateways/stripe.jpg",
     "popupLink": ['images/works/payment-gateways/stripe.jpg']
+  },
+  {
+    "id": 15,
+    "title": "instamojo Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/instamojo.jpg",
+    "popupLink": ['images/works/payment-gateways/instamojo.jpg']
+  },
+  {
+    "id": 16,
+    "title": "paytm Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/paytm.jpg",
+    "popupLink": ['images/works/payment-gateways/paytm.jpg']
+  },
+  {
+    "id": 17,
+    "title": "payu Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/payu.jpg",
+    "popupLink": ['images/works/payment-gateways/payu.jpg']
+  },
+  {
+    "id": 18,
+    "title": "paypal Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/paypal.jpg",
+    "popupLink": ['images/works/payment-gateways/paypal.jpg']
+  },
+  {
+    "id": 19,
+    "title": "2c2p Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/2c2p.png",
+    "popupLink": ['images/works/payment-gateways/2c2p.png']
+  },
+  {
+    "id": 20,
+    "title": "authorize Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/authorize.jpg",
+    "popupLink": ['images/works/payment-gateways/authorize.jpg']
+  },
+  {
+    "id": 21,
+    "title": "billplz Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/billplz.webp",
+    "popupLink": ['images/works/payment-gateways/billplz.webp']
+  },
+  {
+    "id": 22,
+    "title": "Cashfree Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/Cashfree.png",
+    "popupLink": ['images/works/payment-gateways/Cashfree.png']
+  },
+  {
+    "id": 23,
+    "title": "clover Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/clover.png",
+    "popupLink": ['images/works/payment-gateways/clover.png']
+  },
+  {
+    "id": 24,
+    "title": "coinbase Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/coinbase.png",
+    "popupLink": ['images/works/payment-gateways/coinbase.png']
+  },
+  {
+    "id": 25,
+    "title": "coingate Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/coingate.png",
+    "popupLink": ['images/works/payment-gateways/coingate.png']
+  },
+  {
+    "id": 26,
+    "title": "flutterwave Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/flutterwave.png",
+    "popupLink": ['images/works/payment-gateways/flutterwave.png']
+  },
+  {
+    "id": 27,
+    "title": "mollie Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/mollie.webp",
+    "popupLink": ['images/works/payment-gateways/mollie.webp']
+  },
+  {
+    "id": 28,
+    "title": "nowpayments Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/nowpayments.png",
+    "popupLink": ['images/works/payment-gateways/nowpayments.png']
+  },
+  {
+    "id": 29,
+    "title": "omise Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/omise.jpg",
+    "popupLink": ['images/works/payment-gateways/omise.jpg']
+  },
+  {
+    "id": 30,
+    "title": "paymongo Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/paymongo.png",
+    "popupLink": ['images/works/payment-gateways/paymongo.png']
+  },
+  {
+    "id": 31,
+    "title": "rapyd Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/rapyd.webp",
+    "popupLink": ['images/works/payment-gateways/rapyd.webp']
+  },
+  {
+    "id": 32,
+    "title": "square Payment Gateway",
+    "category": "gateways",
+    "image": "images/works/payment-gateways/square.png",
+    "popupLink": ['images/works/payment-gateways/square.png']
   },
   {
     "id": 33,
@@ -261,7 +261,7 @@ const allData = [
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
+  const [dataVisibleCount, setDataVisibleCount] = useState(15);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -269,7 +269,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 15));
   }, [getAllItems]);
 
   const handleChange = (e) => {
@@ -296,7 +296,6 @@ function Works() {
     } else {
       setDataVisibleCount(tempCount);
       if (activeFilter === filters[0].text.toLowerCase()) {
-        console.log("they are same");
         setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
       } else {
         setVisibleItems(

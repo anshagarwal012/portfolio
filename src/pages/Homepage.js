@@ -57,8 +57,10 @@ function Homepage() {
           <Testimonials />
         </Element>
         <Element name="section-contact">
+          <div className="spacer" data-height="96"></div>
           <Contact />
         </Element>
+        <div className="spacer" data-height="96"></div>
         <div className="spacer" data-height="96"></div>
       </main>
     </>
