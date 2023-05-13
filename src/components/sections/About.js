@@ -90,7 +90,7 @@ function About() {
                 <div className="col-md-6 align-self-center">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="/Ansh CV.pdf" className="btn btn-default">
+                    <a href="./Ansh.pdf" className="btn btn-default">
                       Download CV
                     </a>
                   </div>
