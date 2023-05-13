@@ -43,7 +43,7 @@ function Portfolio({ portfolio }) {
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} className={category === 'python' || category === 'gateways' ? 'img-fit' : ''} alt="Portfolio-title" />
+            <img loading="lazy" src={image} className={category === 'python' || category === 'gateways' ? 'img-fit' : ''} alt="Portfolio-title" />
             <div className="mask"></div>
           </div>
         </div>

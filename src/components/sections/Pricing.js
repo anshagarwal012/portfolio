@@ -29,7 +29,7 @@ const priceboxData = [
         text: "Hire me hourly basis for fast and effective work results",
       }
     ],
-    price: 5,
+    price: 15,
     whatsapp: false,
     message: 'https://api.whatsapp.com/send?phone=919696084837&text=I%20am%20interested%20in%20hiring%20you%20on%20your%20*Hourly*%20plan',
     best: true,

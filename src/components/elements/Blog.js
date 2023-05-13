@@ -22,7 +22,7 @@ function Blog({ blogData }) {
             <span className="category">{category}</span>
           </a>
           <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
-            <img src={image} alt="blog-title" />
+            <img loading="lazy" src={image} alt="blog-title" />
           </Link>
         </div>
         <div className="details">

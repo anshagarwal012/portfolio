@@ -44,7 +44,7 @@ function BrandlogosDark() {
             <div className="col-md-3 col-6" key={brandlogo.id}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="client-name" />
+                  <img loading="lazy" src={brandlogo.image} alt="client-name" />
                 </div>
               </div>
             </div>

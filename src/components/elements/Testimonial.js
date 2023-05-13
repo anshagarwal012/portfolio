@@ -5,7 +5,7 @@ function Testimonial({ slider }) {
   return (
     <div className="testimonial-item text-center mx-auto">
       <div className="thumb mb-3 mx-auto">
-        <img src={avatar} alt="customer-name" />
+        <img loading="lazy" src={avatar} alt="customer-name" />
       </div>
       <h4 className="mt-3 mb-0">{userName}</h4>
       <span className="subtitle">{subtitle}</span>

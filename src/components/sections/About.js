@@ -5,8 +5,8 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  name: "Ansh Agarwal",
+  avatarImage: "/images/ansh.jpg",
   content:
     "I am Ansh Agarwal, A Highly Motivated & Passionated Full Stack Developer from India. I have 4 years of rich experience in WordPress, WooCommerce, REST API, Core PHP and also have knowledge of Python, React, Laravel. ",
 };
@@ -79,7 +79,7 @@ function About() {
         <div className="row">
           <div className="col-md-3 align-self-center">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img loading="lazy" className="main_dp1" src={aboutContent.avatarImage} alt={aboutContent.name} />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
@@ -90,7 +90,7 @@ function About() {
                 <div className="col-md-6 align-self-center">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="https://anshagarwal012.github.io/ANSH%20CV.pdf" className="btn btn-default">
+                    <a href="/Ansh CV.pdf" className="btn btn-default">
                       Download CV
                     </a>
                   </div>
